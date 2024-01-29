@@ -31,6 +31,8 @@ body{
 .satu{
     height: 33vh;
     background-color: gainsboro;
+    display: flex;
+    align-items: center;
 }
 .satu h3{
     font-size: 30px;
@@ -40,6 +42,8 @@ body{
 }
 .dua{
     height: 33vh;
+    display: flex;
+    flex-direction: column;
 }
 .judul-form{
     font-size: 30px;
