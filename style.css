@@ -41,6 +41,11 @@ body{
 .dua{
     height: 33vh;
 }
+.judul-form{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
 .tiga{
     height: 33vh;
 }
