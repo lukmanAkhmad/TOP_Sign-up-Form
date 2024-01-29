@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid greenyellow;
-}
+} */
 body{
     margin: 0;
     padding: 0;
@@ -44,7 +44,37 @@ body{
 .judul-form{
     font-size: 30px;
     font-weight: bold;
+    margin: 0;
     margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.data-user{
+    display: flex;
+    margin-left: 50px;
+    gap: 90px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+ label{
+    font-size: 15px;
+}
+input {
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 18px;
+    outline: none;  /* supaya di chrome bordernya tidak otomatis hitam saat focus */
+}
+input:focus{
+    border: 1px solid blue;
+}
+input:invalid{
+    border: 1px solid red;
 }
 .tiga{
     height: 33vh;
