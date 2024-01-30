@@ -135,7 +135,16 @@ input:focus{
 .form-div input[type='password']:invalid {
     border: 1px solid red;
 }
+
 /* sampe sini */
+.error{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: red;
+    }
+
+    
 .tiga {
     height: 33vh;
     background-color: #f7f7f7;
