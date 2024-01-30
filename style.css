@@ -1,85 +1,96 @@
-/* *{
+/* * {
     border: 1px solid greenyellow;
 } */
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
-@font-face{
+
+@font-face {
     font-family: norse-bold;
     src: url(./font/Norse-Bold.otf);
 }
-.container{
+
+.container {
     display: flex;
 }
-.left p{
+
+.left p {
     font-family: norse-bold;
     color: white;
 }
-.left{
+
+.left {
     background-image: url(./image/halie-west-25xggax4bSA-unsplash.jpg);
     height: 100vh;
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.right{
+
+.right {
     display: flex;
     flex-direction: column;
-    width: 65vw;
+    width: 100vw;
 }
-.satu{
+
+.satu {
     height: 33vh;
-    background-color: gainsboro;
+    background-color: #f7f7f7;
     display: flex;
     align-items: center;
 }
-.satu h3{
+
+.satu h3 {
     font-size: 30px;
     margin: 35px;
     margin-top: 85px;
-    
+
 }
-.dua{
-    height: 33vh;
-    display: flex;
-    flex-direction: column;
-}
-.judul-form{
+
+.dua p {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
-    margin-left: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-.data-user{
+
+.dua {
+    height: 33vh;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.form-inti {
     display: flex;
-    margin-left: 50px;
+    flex-direction: row;
     gap: 90px;
+    margin-left: 50px;
 }
-.form-row{
+
+.form-div {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
- label{
+
+label {
     font-size: 15px;
 }
+
 input {
     width: 250px;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     height: 30px;
     font-size: 18px;
-    outline: none;  /* supaya di chrome bordernya tidak otomatis hitam saat focus */
-}
-input:focus{
-    border: 1px solid blue;
-}
-input:invalid{
-    border: 1px solid red;
+    outline: none;
+    /* supaya di chrome bordernya tidak otomatis hitam saat focus */
 }
 .tiga{
     height: 33vh;
+    background-color: #f7f7f7;
 }
