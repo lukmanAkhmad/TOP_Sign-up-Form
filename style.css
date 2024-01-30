@@ -25,26 +25,30 @@ body {
     display: flex;
     flex-direction: column;
 }
-.container-image{
+
+.container-image {
     height: 33vh;
     display: flex;
     align-items: flex-end;
 }
-.semi-transparan{
+
+.semi-transparan {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color:rgb(0, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0, 0.6);
     width: 100%;
     height: 150px;
 }
-.p-img{
+
+.p-img {
     font-size: 100px;
     font-family: norse-bold, sans-serif;
     color: white;
 }
-.container-footer{
+
+.container-footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -52,10 +56,12 @@ body {
     width: 100%;
     flex-direction: row;
 }
-.p-footer{
+
+.p-footer {
     color: white;
 }
-.a-footer{
+
+.a-footer {
     color: white;
 }
 
@@ -79,7 +85,7 @@ body {
 
 }
 
-.dua p {
+.judul-form {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
@@ -110,7 +116,7 @@ body {
 label {
     font-size: 15px;
 }
-
+/* dari sini */
 input {
     width: 250px;
     border: 1px solid #E5E7EB;
@@ -122,15 +128,20 @@ input {
 }
 input:focus{
     border: 1px solid blue;
+    box-shadow: 5px 5px grey;
 }
-input:invalid{
-    border: 1px color red;
+.form-div input[type='email']:invalid,
+.form-div input[type='tel']:invalid,
+.form-div input[type='password']:invalid {
+    border: 1px solid red;
 }
-.tiga{
+/* sampe sini */
+.tiga {
     height: 33vh;
     background-color: #f7f7f7;
 }
-button{
+
+button {
     background-color: #596D48;
     width: 200px;
     height: 45px;
@@ -142,13 +153,15 @@ button{
     margin: 50px;
     box-shadow: 2px 5px #e4e4e4;
 }
-.tiga p{
+
+.tiga p {
     margin: 0;
     margin-left: 50px;
     font-size: 16px;
     font-weight: 500;
 }
-.a-button{
+
+.a-button {
     text-decoration: none;
     color: #596D48;
     font-weight: bold;
