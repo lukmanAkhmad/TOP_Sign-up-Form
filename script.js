@@ -1,4 +1,3 @@
-console.log("hello")
 let pwd = document.querySelector('#password').value;
 let confirmPwd = document.querySelector('#confirm-password').value;
 let error = document.querySelector('.error');
