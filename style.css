@@ -116,7 +116,7 @@ body {
 label {
     font-size: 15px;
 }
-/* dari sini */
+
 input {
     width: 250px;
     border: 1px solid #E5E7EB;
@@ -126,25 +126,27 @@ input {
     outline: none;
     /* supaya di chrome bordernya tidak otomatis hitam saat focus */
 }
-input:focus{
+
+input:focus {
     border: 1px solid blue;
     box-shadow: 5px 5px grey;
 }
+
 .form-div input[type='email']:invalid,
 .form-div input[type='tel']:invalid,
 .form-div input[type='password']:invalid {
     border: 1px solid red;
 }
 
-/* sampe sini */
-.error{
+
+.error {
     margin: 0;
     padding: 0;
     font-size: 12px;
     color: red;
-    }
+}
 
-    
+
 .tiga {
     height: 33vh;
     background-color: #f7f7f7;
