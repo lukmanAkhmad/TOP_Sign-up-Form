@@ -1,7 +1,3 @@
-/* * {
-    border: 1px solid greenyellow;
-} */
-
 body {
     margin: 0;
     padding: 0;
@@ -129,7 +125,7 @@ input {
 
 input:focus {
     border: 1px solid blue;
-    box-shadow: 5px 5px grey;
+    box-shadow: 2px 3px 7px 0px grey;
 }
 
 .form-div input[type='email']:invalid,
